@@ -1,0 +1,68 @@
+html, body {
+    height: 100%;
+    margin:0;
+    padding:0;
+}
+
+.clock {
+	padding: 0px;
+	margin: 0px auto;
+	background: #85D8CE;
+	height: 50%;
+	background: linear-gradient(135deg, #085078, #85D8CE);
+	overflow: auto;
+ 	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+
+.rick {
+	background: linear-gradient(135deg, #85D8CE, #085078);
+}
+
+.vertical-center {
+	align-self: center;
+	text-align: center;
+}
+
+p {
+	color: #FFF;
+  	font-size: 2em;
+}
+
+.digit {
+  	display: inline-block;
+  	width: 70px;
+  	height: 120px;
+  	margin: 3px;
+  	background-color: #fff;
+  	border-radius: 10px;
+	text-align: center;
+  	font-family: Courier, sans-serif;
+  	font-size: 6em;
+}
+
+.year, .tenyear, .month, .tenmonth, .day, .tenday {
+	background-color: #9FF;
+}
+
+.rick .tenyear {
+	background-color: #fff;
+}
+
+/*
+.month, .tenmonth {
+	background-color: #9FF;
+}
+
+.day, .tenday {
+	background-color: #6DD;
+}
+
+.hour, .tenhour {
+	background-color: #3DD;
+}
+
+.minute, .tenminute {
+	background-color: #0bb;
+}*/
