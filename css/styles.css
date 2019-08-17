@@ -40,3 +40,29 @@ p {
 	text-align: center;
   	font-family: Courier, sans-serif;
   	font-size: 6em;
+}
+
+.year, .tenyear, .month, .tenmonth, .day, .tenday {
+	background-color: #9FF;
+}
+
+.rick .tenyear {
+	background-color: #fff;
+}
+
+/*
+.month, .tenmonth {
+	background-color: #9FF;
+}
+
+.day, .tenday {
+	background-color: #6DD;
+}
+
+.hour, .tenhour {
+	background-color: #3DD;
+}
+
+.minute, .tenminute {
+	background-color: #0bb;
+}*/
